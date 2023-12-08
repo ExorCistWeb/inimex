@@ -1,4 +1,14 @@
 @media (max-width:1280px) {
+    #advantages h2 {
+        text-align: center;
+    }
+    .contact_country_flex {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .inputs_box {
+        padding: 70px 40px;
+    }
     .wrapper {
         padding: 0 40px;
     }
@@ -98,6 +108,25 @@
 }
 
 @media (max-width:1080px) {
+    .consultation_form_two {
+        justify-content: center;
+    }
+    .consultation_form_two .inputs_box {
+        max-width: 600px;
+        width: 100%;
+    }
+    .form_img {
+        display: none;
+    }
+    #programs_immigration,
+    #consultation,
+    #offices,
+    #country {
+        padding-top: 120px;
+    }
+    #programs_immigration h2 {
+        text-align: center;
+    }
     .footer {
         flex-wrap: wrap;
         justify-content: center;
@@ -189,9 +218,46 @@
     .footer {
         justify-content: space-around;
     }
+    .inputs_box {
+        padding: 50px 20px;
+    }
 }
 
 @media (max-width:768px) {
+    .offer_box {
+        padding: 20px 20px;
+    }
+    #consult_more_country h2,
+    #consult_more_country h3,
+    #consult_more_country .flex_massage {
+        margin-bottom: 30px;
+    }
+    .advantages_box_cont {
+        min-width: unset;
+    }
+    #consult_more_country h2 {
+        text-align: center;
+    }
+    #consult_more_country .flex_massage {
+        margin-top: 30px;
+    }
+    #consult_more_country {
+        padding: 50px 50px;
+    }
+    .country_info_two {
+        padding: 50px 20px;
+    }
+    .consultation_form {
+        flex-direction: column;
+    }
+    .consultation_form .inputs_box,
+    .consultation_form .calendar {
+        width: 100%;
+    }
+    .consultation_form .calendar {
+        display: flex;
+        justify-content: center;
+    }
     .about_us_cont {
         padding: 40px;
     }
@@ -238,9 +304,42 @@
     #reviews .wrapper h2 {
         padding: 0 20px;
     }
+    .about_flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_link {
+        padding: 20px;
+    }
+    .about_link h3 {
+        font-size: 32px;
+    }
+    .get {
+        padding: 70px 20px;
+    }
+    .offer_box p {
+        font-size: 14px;
+    }
 }
 
 @media (max-width:480px) {
+    .country_title h3,
+    .country_title {
+        margin-bottom: 20px;
+    }
+    #country .wrapper {
+        padding: 0;
+    }
+    .offer_box {
+        padding: 20px 20px;
+    }
+    .get h2 {
+        font-size: 24px;
+    }
+    .inputs_box h2 {
+        text-align: center;
+    }
     .contry_flex {
         flex-direction: column;
         gap: 20px;
@@ -317,5 +416,106 @@
     #main {
         align-items: flex-end;
         padding-bottom: 40px;
+    }
+}
+
+@media (min-width:768px) {
+    .select_country,
+    .all_country {
+        transition: scale .3s ease-in-out;
+    }
+    .select_country:hover,
+    .all_country:hover {
+        transition: scale .3s ease-in-out;
+        scale: 1.1;
+        text-decoration: none;
+    }
+    .header_box_left a,
+    .flex_massage a {
+        transition: scale .3s ease-in-out;
+    }
+    .header_box_left a:hover,
+    .flex_massage a:hover {
+        transition: scale .3s ease-in-out;
+        scale: 1.1;
+    }
+    .btn_consult {
+        transition: background .3s ease-in-out, color .3s ease-in-out;
+    }
+    .btn_consult:hover {
+        transition: background .3s ease-in-out, color .3s ease-in-out;
+        background: #fff;
+        color: #20475F;
+    }
+    .menu_btn img,
+    .abs_our {
+        transition: scale .3s ease-in-out;
+    }
+    .menu_btn:hover img {
+        scale: 0.9;
+        transition: scale .3s ease-in-out;
+    }
+    .btn_white {
+        transition: background .3s ease-in-out;
+    }
+    .btn_white:hover {
+        transition: background .3s ease-in-out;
+        background: #eaeaea;
+    }
+    .our_services_cont a:hover .abs_our {
+        scale: 1.1;
+        transition: scale .3s ease-in-out;
+    }
+    .programs_box,
+    .more_btn {
+        transition: background .3s ease-in-out;
+    }
+    .programs_box:hover {
+        transition: background .3s ease-in-out;
+        background: #fff;
+    }
+    .more_btn:hover {
+        transition: background .3s ease-in-out;
+        background: #285d7e;
+    }
+    .programs_two .programs_box:hover {
+        transition: background .3s ease-in-out;
+        background: #f9f9f9;
+    }
+    .flex_massage a svg path {
+        transition: fill .3s ease-in-out;
+    }
+    .flex_massage a:hover svg path {
+        transition: fill .3s ease-in-out;
+        fill: #eaeaea;
+    }
+    .reviewsSwiper a .img_gal img,
+    .about_link .fon_about {
+        transition: scale .3s ease-in-out;
+    }
+    .reviewsSwiper a:hover .img_gal img,
+    .about_link:hover .fon_about {
+        transition: scale .3s ease-in-out;
+        scale: 1.1;
+    }
+    .img_gal {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .footer ul li a {
+        transition: all .3s ease-in-out;
+    }
+    .footer ul li a:hover {
+        transition: all .3s ease-in-out;
+        text-decoration: underline;
+    }
+    .cont_btn_footer {
+        transition: background .3s ease-in-out, color .3s ease-in-out;
+    }
+    .cont_btn_footer:hover {
+        transition: background .3s ease-in-out, color .3s ease-in-out;
+        background: #20475F;
+        color: #fff !important;
     }
 }

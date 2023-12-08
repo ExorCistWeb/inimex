@@ -47,6 +47,10 @@ body {
     margin: 0 auto;
 }
 
+.index header {
+    background: none;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -55,6 +59,7 @@ header {
     justify-content: center;
     height: 104px;
     z-index: 999;
+    background-color: #20475F;
     transition: background 0.3s ease;
 }
 
@@ -742,4 +747,560 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
+}
+
+#programs_immigration,
+#consultation,
+#offices,
+#country {
+    padding-top: 170px;
+}
+
+#programs_immigration h1,
+#consultation h1,
+#offices h1 {
+    text-align: start;
+}
+
+#consultation h1 {
+    margin-bottom: 34px;
+}
+
+.consultation_title_info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.consultation_title_info p {
+    color: #292929;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+    opacity: 0.8;
+}
+
+.consultation_form {
+    background: #FFF;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.inputs_box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px 93px 70px 83px;
+}
+
+.inputs_box h2 {
+    margin-bottom: 17px;
+}
+
+.inputs_box input {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 5px;
+    background: #F6F6F6;
+    color: #292929;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%
+}
+
+.inputs_box textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    resize: none;
+    height: 188px;
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 5px;
+    background: #F6F6F6;
+    color: #292929;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%
+}
+
+.inputs_box button {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    background: #20475F;
+    height: 60px;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    color: #FFF;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.calendar {
+    width: 50%;
+}
+
+.calendar img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.offices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.offices_box {
+    width: 100%;
+    max-width: 380px;
+    height: 577px;
+    padding: 30px;
+    background: #fff;
+}
+
+.map {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.offices_box h3 {
+    color: #20475F;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.offices_box h5 {
+    color: #20475F;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 17px 0 30px;
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.offices_box span {
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.offices_box p {
+    color: #292929;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.offices_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.skype {
+    margin-top: 30px;
+}
+
+.consultation_form_two {
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.form_img {
+    display: block;
+    height: 100%;
+}
+
+.form_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about_link {
+    width: 387px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 34px 40px;
+    overflow: hidden;
+}
+
+.fon_about {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about_link h3,
+.about_link span {
+    position: relative;
+    z-index: 10;
+    color: #fff;
+}
+
+.about_link h3 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.more_about {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+.get {
+    background: #fff;
+    padding: 70px 0 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.get h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.get h2 {
+    max-width: 730px;
+    margin: 40px 0 53px;
+}
+
+#get {
+    padding-bottom: 50px;
+}
+
+#what_we,
+#our_location,
+#our_company {
+    padding-top: 50px;
+}
+
+.what_we h4,
+.our_location h4,
+.our_company h4 {
+    color: #20475F;
+    line-height: normal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.what_we p,
+.our_location p,
+.our_company p {
+    color: #292929;
+    opacity: 0.9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+}
+
+#our_location {
+    padding-bottom: 100px;
+}
+
+.country_title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.country_title h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.country_info_two {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 90px 80px 80px;
+    gap: 14px;
+}
+
+.country_info_two h2 {
+    text-align: left !important;
+    margin-bottom: 20px;
+}
+
+.country_info_two p {
+    color: #292929;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact_country {
+    background: #F6F6F6;
+    margin-top: 60px;
+    padding: 50px 40px;
+}
+
+.contact_country h4 {
+    color: #20475F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.contact_country_flex {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.contact_country_flex a {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #292929;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.country_img {
+    width: 100%;
+    height: auto;
+}
+
+.country_img img {
+    width: 100%;
+}
+
+#offer {
+    padding-top: 100px;
+}
+
+#offer h2 {
+    margin-bottom: 40px;
+}
+
+.offer_table {
+    width: 100%;
+}
+
+.offer_line {
+    display: flex;
+}
+
+.offer_box {
+    width: 50%;
+    padding: 20px 40px;
+}
+
+.offer_line .offer_box:first-child {
+    border-right: 1px solid #E5E5E5;
+}
+
+.offer_line_bg {
+    background: #fff;
+}
+
+.offer_box p {
+    color: #292929;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.offer_box p::before {
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+    content: url(../img/icon/accept.svg);
+}
+
+#advantages {
+    padding-top: 100px;
+}
+
+#advantages h2 {
+    margin-bottom: 40px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.advantages_box_cont {
+    position: relative;
+    background: #f7f7f7;
+    min-width: 340px;
+    width: 100%;
+    max-width: 386px;
+    padding: 46px 40px;
+    margin-top: 50px;
+}
+
+.adv_box_img {
+    width: 82px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #fff;
+    position: absolute;
+    left: 40px;
+    top: -50px;
+}
+
+.advantages_box_cont p {
+    margin-top: 23px;
+    color: #292929;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+    opacity: 0.8;
+    font-family: 'Roboto', sans-serif;
+}
+
+#consult_more_country {
+    background-image: url(../img/photo/county_add.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 40px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+#consult_more_country h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 52px;
+}
+
+#consult_more_country h2 {
+    margin-bottom: 70px;
+}
+
+#consult_more_country p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 380px;
+}
+
+#consult_more_country .flex_massage {
+    margin: 80px 0;
+}
+
+.btn_flex {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.btn_flex a {
+    width: 280px;
+    height: 60px;
+    display: flex;
+    font-weight: 600;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 !important;
+}
+
+.btn_flex .btn_consult {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.reviews_country {
+    margin-bottom: 100px;
 }
